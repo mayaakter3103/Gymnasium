@@ -14,4 +14,15 @@ $(function () {
         prevArrow: '<i class="fa-solid fa-angle-left prev_arrow"></i>',
         nextArrow: '<i class="fa-solid fa-angle-right next_arrow"></i>'
     });
+
+    /* ========================================================================================================
+        Todo: about part
+            * Venobox activation code
+    ========================================================================================================= */
+    new VenoBox({
+        selector: '.video-link',
+        ratio: '4x3',
+        spinner: 'wander'
+    });
+
 })
